@@ -4,19 +4,15 @@ html, body {
 }
 
 body {
-	background-image: url("./images/background.png");
-	color: white;
 }
 
 h2 {
-	color: #d8f6d5;
 	text-decoration: underline;
 	font-weight: bold;
 	padding: 0px 0px 10px 0px;
 }
 
 h4 {
-	color: #d8f6d5;
 	text-decoration: underline;
 	font-weight: bold;
 }
@@ -38,16 +34,6 @@ hr {
 	padding: 1px 0px 0px 1px; 
 }
 
-a {
-	color: white;
-	text-decoration: underline;
-}
-
-a:hover, a:visited, a:active {
-	color: white;
-}
-
-
 #carousel-top img {
 	height: 150px;
 	width: 100%;
@@ -65,8 +51,16 @@ a:hover, a:visited, a:active {
 	padding: 0 0 60px;
 }
 
+#headerbk {
+	background-image: url("./images/background.png");
+	padding: 0px 0px 30px 0px;
+	margin: 0px 0px 20px 0px;
+	border-bottom: 5px solid #654321;
+}
+
 #header {
 	text-align: center;
+
 }
 
 #logo {
@@ -76,6 +70,11 @@ a:hover, a:visited, a:active {
 	background-repeat: no-repeat;
 	width: 460px;
 	height: 168px;	
+}
+
+#addresshome {
+	font-size:30px;
+	margin: 0px 10px 0px 0px;
 }
 
 #brands {
@@ -101,11 +100,11 @@ a:hover, a:visited, a:active {
 
 #footer {
 	text-align:center;
-	margin:30px 0px 5px 0px;
+	margin:30px 0px 25px 0px;
 }
 
 #opentime {
-	font-size: 20px;
+	font-size: 23px;
 	text-align: center;
 }
 
