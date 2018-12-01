@@ -4,6 +4,7 @@ html, body {
 }
 
 body {
+	background-image: url("./images/background.png");
 }
 
 h2 {
@@ -51,15 +52,10 @@ hr {
 	padding: 0 0 60px;
 }
 
-#headerbk {
-	background-image: url("./images/background.png");
-	padding: 0px 0px 30px 0px;
-	margin: 0px 0px 20px 0px;
-	border-bottom: 5px solid #c3c3c3;
-}
 
 #header {
 	text-align: center;
+	padding-bottom: 20px;
 
 }
 
@@ -111,4 +107,19 @@ hr {
 #google_translate_element {
 	text-align: right;
 	float: right;
+}
+
+#carousel-images {
+	margin: 0px 5px 0px 5px;
+	padding: 20px 0px 20px 0px;
+	text-align: center;
+}
+
+#carousel-images .item div {
+	background-repeat: no-repeat; 
+	background-position: center;
+	height: 150px;
+	width:100%; 
+	opacity: 0.5;
+	background-size: cover;
 }
