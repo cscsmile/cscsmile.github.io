@@ -1,15 +1,15 @@
 html, body {
 	height: 100%;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 16px;
+	font-size: 14px;
 }
 
 body {
 	background-image: url("./images/background.png");
+
 }
 
 h2 {
-	text-decoration: underline;
 	font-weight: bold;
 	padding: 0px 0px 10px 0px;
 }
@@ -31,9 +31,24 @@ hr {
 	display: block;
 	height: 1px;
 	border: 0;
-	border-top: 1px solid #d8f6d5;
+	border-top: 3px solid #c3c3c3;
 	margin: 2em 0;
 	padding: 1px 0px 0px 1px; 
+}
+
+.hideOverflow {
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+}
+
+a, a:visited, a:link, a:active {
+	color: #8cc63f;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;	
 }
 
 #carousel-top img {
@@ -53,20 +68,28 @@ hr {
 	padding: 0 0 60px;
 }
 
-
 #header {
 	text-align: center;
-	padding-bottom: 20px;
 
 }
 
 #logo {
 	display: inline-block;
-	text-indent: -9999px;
+	text-indent: -999999px;
 	background-image: url("./images/logo.png");
 	background-repeat: no-repeat;
-	width: 460px;
-	height: 168px;	
+	background-size: contain;
+	background-position: center; 
+	width: 280px;
+	height: 320px;
+	margin-bottom: 20px;
+}
+
+#content {
+}
+
+#content .text-center {
+	text-align: center;
 }
 
 #addresshome {
@@ -110,21 +133,7 @@ hr {
 	float: right;
 }
 
-#carousel-images {
-	margin: 0px 5px 0px 5px;
-	padding: 20px 0px 20px 0px;
-	text-align: center;
-}
-
-#carousel-images .item div {
-	background-repeat: no-repeat; 
-	background-position: center;
-	height: 150px;
-	width:100%; 
-	opacity: 0.5;
-	background-size: cover;
-}
-
 #loginform {
 	margin: 20px;
 }
+
